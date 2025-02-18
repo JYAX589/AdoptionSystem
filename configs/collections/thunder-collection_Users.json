@@ -1,0 +1,74 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Users",
+    "collectionId": "30789a96-d4b9-4867-9da9-e22516c11801",
+    "dateExported": "2025-02-18T03:13:42.481Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7fad6406-84c8-47d6-9aaf-5be9755b3b9c",
+            "colId": "30789a96-d4b9-4867-9da9-e22516c11801",
+            "containerId": "",
+            "name": "get",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/findUser/67b3f7467f57d53268e44a36",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-17T06:20:43.910Z",
+            "modified": "2025-02-18T02:58:49.506Z",
+            "headers": []
+        },
+        {
+            "_id": "93d271a3-3ab7-4b8f-a2b7-5629a9efe799",
+            "colId": "30789a96-d4b9-4867-9da9-e22516c11801",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/register",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-02-17T07:03:14.788Z",
+            "modified": "2025-02-18T02:58:14.435Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Josue\",\n  \"surname\": \"Javier\",\n  \"username\": \"yax\",\n  \"email\": \"jyax@gmai.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\":\"\",\n  \"phone\":\"09897774\",\n  \"role\": \"ADMIN_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "64f0a989-419b-423b-8eb4-5bd9edc6c695",
+            "colId": "30789a96-d4b9-4867-9da9-e22516c11801",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67b370ceecab1763dee5366a",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-02-17T08:35:45.735Z",
+            "modified": "2025-02-17T17:29:55.486Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"si funciona \",\n  \"surname\": \"o no\",\n  \"username\": \"agua\",\n  \"email\": \"yaxjosue335@gmai.com\",\n  \"password\":\"99997777\",\n  \"profilePicture\": null,\n  \"phone\": \"12347895\",\n  \"role\": \"USER_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "48f374d1-cb9c-4403-8d18-4330a6503462",
+            "colId": "30789a96-d4b9-4867-9da9-e22516c11801",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67b2e42d911c6bcc3f5d8b7d",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2025-02-17T17:38:04.779Z",
+            "modified": "2025-02-18T02:46:17.735Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"lpichiya@gmai.com\",\n  \"password\":\"22221111\",\n  \"username\":\"warzone\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "YqfcWn12c9X6Qm_mCyqr1xnyTnsisSjZgIbn_e9ZQq0kvQ2_3IP3y_zWPf6nIcxvwrtANQJ9XfDvEQXhT_THLQ"
+}

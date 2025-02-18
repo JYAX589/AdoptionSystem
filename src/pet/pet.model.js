@@ -1,36 +1,35 @@
-import {Schema, model} from 'mongoose';
+import { Schema, model } from "mongoose";
 
 const PetSchema = Schema({
-    name:{
+    name: {
         type: String,
         required: true
     },
-    description:{
+    description: {
         type: String,
         required: true
     },
-    age:{
+    age: {
         type: Number,
         required: true
     },
-    type:{
-        type:String,
+    type: {
+        type: String,
         uppercase: true,
         required: true
     },
-    keeper:{
+    keeper: {
         type: Schema.Types.ObjectId,
-        ref:'user',
+        ref: 'user',
         required: true
     },
-    status:{
-        type:Boolean,
+    status: {
+        type: Boolean,
         default: true
     }
-    
 }, {
-    timestamp: true,
+    timestamps: true,
     versionKey: false
 });
 
-export default model ('pet', PetSchema);
+export default model('Pet', PetSchema);

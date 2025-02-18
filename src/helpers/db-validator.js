@@ -23,6 +23,6 @@ export const existeUsuarioById = async (id = '') => {
     const existeUsuario = await User.findById(id);
 
     if(!existeUsuario){
-        throw new Error(`EL ID ${id} no existe`);
+        throw new Error(`El ID ${id} no existe`);
     }
 }

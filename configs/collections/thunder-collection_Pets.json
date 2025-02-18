@@ -1,0 +1,111 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Pets",
+    "collectionId": "e70fc622-77b6-482f-8ff4-1bfa0b766915",
+    "dateExported": "2025-02-18T03:14:36.061Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b55c3a4b-ca41-4de8-a3db-b030fe116eae",
+            "colId": "e70fc622-77b6-482f-8ff4-1bfa0b766915",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-17T07:43:09.743Z",
+            "modified": "2025-02-18T03:04:40.725Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZjc0NjdmNTdkNTMyNjhlNDRhMzYiLCJpYXQiOjE3Mzk4NDc3MzksImV4cCI6MTczOTg1MTMzOX0.E81MPjTsntAo7ObXCE7I5S2Rwywr6xelhxPgsMcqVxk"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Max\",\n  \"description\":\"es nego y grande\",\n  \"age\":5,\n  \"type\":\"gato\",\n  \"email\":\"jyax@gmai.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d99727ca-f963-4796-8198-b0512e8d441f",
+            "colId": "e70fc622-77b6-482f-8ff4-1bfa0b766915",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/67b3f8c85de1953b969ec152",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2025-02-17T08:08:03.888Z",
+            "modified": "2025-02-18T03:06:36.323Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZjc0NjdmNTdkNTMyNjhlNDRhMzYiLCJpYXQiOjE3Mzk4NDc3MzksImV4cCI6MTczOTg1MTMzOX0.E81MPjTsntAo7ObXCE7I5S2Rwywr6xelhxPgsMcqVxk"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Tobi\",\n  \"description\": \"es blanco y grande\",\n  \"age\": 10,\n  \"type\": \"Perro\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fbc977f0-835b-4e22-9088-cb6030dde81f",
+            "colId": "e70fc622-77b6-482f-8ff4-1bfa0b766915",
+            "containerId": "",
+            "name": "reservacion",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/appointment/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-02-17T18:52:14.467Z",
+            "modified": "2025-02-18T03:11:08.647Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZjc0NjdmNTdkNTMyNjhlNDRhMzYiLCJpYXQiOjE3Mzk4NDc3MzksImV4cCI6MTczOTg1MTMzOX0.E81MPjTsntAo7ObXCE7I5S2Rwywr6xelhxPgsMcqVxk"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"petId\": \"67b3f8c85de1953b969ec152\", /*se agrega el id keeper*/\n  \"petName\":\"gatos\",\n  \"description\": \"si funciona\",\n  \"date\": \"2024-02-20\",\n  \"time\": \"15:00\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e6136e1c-8c13-407f-9fa3-6a2075c8adf3",
+            "colId": "e70fc622-77b6-482f-8ff4-1bfa0b766915",
+            "containerId": "",
+            "name": "get",
+            "url": "http://localhost:3000/adoptionSystem/v1/appointment/67b3a33dffb17cf20f4d50ee",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-17T21:38:26.317Z",
+            "modified": "2025-02-18T01:14:52.179Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzYTMzZGZmYjE3Y2YyMGY0ZDUwZWUiLCJpYXQiOjE3Mzk4MzA4MjYsImV4cCI6MTczOTgzNDQyNn0.4RnSGddI5meHDxfke4yYVRt5Qnz5elJ6ipi4NqblPSU"
+                }
+            ]
+        },
+        {
+            "_id": "114ea81b-78af-4e60-8226-469718b24313",
+            "colId": "e70fc622-77b6-482f-8ff4-1bfa0b766915",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/appointment/67b3ab0bd9f96b1c7a4e982b",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-02-18T00:54:58.711Z",
+            "modified": "2025-02-18T00:59:31.163Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzYTMzZGZmYjE3Y2YyMGY0ZDUwZWUiLCJpYXQiOjE3Mzk4MzkyOTIsImV4cCI6MTczOTg0Mjg5Mn0.dbHI_ykg7nMVE3C7yB5n4CjRNQe6bFDvVkxSVtzRdjs"
+                }
+            ]
+        }
+    ],
+    "ref": "l7DA6iWDD8xGLj3Qj_LoLben0PYRSaLWmaSQLMwwm6au5o4QX5o5Nwm9sgzbhubCfGFSbSpZ0a_9lUo00IWG7Q"
+}
