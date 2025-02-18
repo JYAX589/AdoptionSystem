@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "67b3f8c85de1953b969ec152"
+  },
+  "name": "Tobi",
+  "description": "es blanco y grande",
+  "age": 10,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67b3f7467f57d53268e44a36"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-18T03:04:40.716Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T03:06:36.297Z"
+  }
+}]
