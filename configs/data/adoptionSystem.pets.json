@@ -1,19 +1,19 @@
 [{
   "_id": {
-    "$oid": "67b3f8c85de1953b969ec152"
+    "$oid": "67d219d3ead59f0960f3c21d"
   },
-  "name": "Tobi",
-  "description": "es blanco y grande",
-  "age": 10,
-  "type": "PERRO",
+  "name": "Max",
+  "description": "es nego y grande",
+  "age": 5,
+  "type": "GATO",
   "keeper": {
-    "$oid": "67b3f7467f57d53268e44a36"
+    "$oid": "67d20d59d7f88b7f28bd2720"
   },
   "status": true,
   "createdAt": {
-    "$date": "2025-02-18T03:04:40.716Z"
+    "$date": "2025-03-12T23:33:39.170Z"
   },
   "updatedAt": {
-    "$date": "2025-02-18T03:06:36.297Z"
+    "$date": "2025-03-12T23:33:39.170Z"
   }
 }]

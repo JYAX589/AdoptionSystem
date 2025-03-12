@@ -1,28 +1,62 @@
 {
     "clientName": "Thunder Client",
     "collectionName": "Auth",
-    "collectionId": "693e2371-bb17-496b-b7f4-380312891dba",
-    "dateExported": "2025-02-18T03:14:55.303Z",
+    "collectionId": "4be9e4d1-f5f6-4e8d-bf03-488a8a559b46",
+    "dateExported": "2025-03-12T23:42:13.397Z",
     "version": "1.2",
     "folders": [],
     "requests": [
         {
-            "_id": "b18e7b38-8694-470b-9f07-3a778e40e076",
-            "colId": "693e2371-bb17-496b-b7f4-380312891dba",
+            "_id": "f7b8debe-7265-4048-9987-5b8588735070",
+            "colId": "4be9e4d1-f5f6-4e8d-bf03-488a8a559b46",
+            "containerId": "",
+            "name": "updatePassword",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/Actualizar/",
+            "method": "PUT",
+            "sortNum": 5000,
+            "created": "2025-03-12T23:41:25.137Z",
+            "modified": "2025-03-12T23:41:25.137Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"jyax@gmail.com\",\n  \"password\": \"12345678\",\n  \"newPassword\": \"098765432\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7d618f0c-526b-4677-a559-824b99289953",
+            "colId": "4be9e4d1-f5f6-4e8d-bf03-488a8a559b46",
             "containerId": "",
             "name": "Login",
             "url": "http://localhost:3000/adoptionSystem/v1/auth/login/",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2025-02-17T08:00:01.225Z",
-            "modified": "2025-02-18T03:02:19.175Z",
+            "created": "2025-03-12T18:48:54.944Z",
+            "modified": "2025-03-12T23:19:42.167Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\":\"jyax@gmai.com\",\n  \"password\":\"12345678\",\n  \"username\":\"yax\"\n}",
+                "raw": "{\n  \"email\":\"diego@gmail.com\",\n  \"password\":\"098765432\",\n  \"username\":\"hola\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1383b60e-f559-4781-a52f-d6a086d6e8df",
+            "colId": "4be9e4d1-f5f6-4e8d-bf03-488a8a559b46",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-03-12T23:41:35.958Z",
+            "modified": "2025-03-12T23:41:35.958Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Josue\",\n  \"surname\": \"Yax\",\n  \"username\": \"Javier\",\n  \"email\": \"jyax@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\":\"\",\n  \"phone\":\"98765432\",\n  \"role\": \"ADMIN_ROLE\"\n}",
                 "form": []
             }
         }
     ],
-    "ref": "gsSg_FPK0Hvwqz4qbd99npczebDw9zgge1trRTvjgieKA-CSSV7WA2bKMzdT8qM8eiKYudDQOY-JglUoBGCgVg"
+    "ref": "myxoomrkO_-F8Hzf5mLLCiZtE3DB-ULITP_AicRRZLhM7c9OzkD2C1n4NCY0T9Anb8GrudL30E-vP6QkLIZgYQ"
 }

@@ -1,33 +1,9 @@
 [{
   "_id": {
-    "$oid": "67b3d8d72923bfbcb2ad34cb"
+    "$oid": "67d219f9ead59f0960f3c221"
   },
   "pet": {
-    "$oid": "67b2ee307edab03d7e706a73"
-  },
-  "date": {
-    "$date": "2024-02-20T00:00:00.000Z"
-  },
-  "time": "15:00",
-  "status": "false",
-  "owner": {
-    "$oid": "67b3a33dffb17cf20f4d50ee"
-  },
-  "description": "si funciona",
-  "createdAt": {
-    "$date": "2025-02-18T00:48:23.336Z"
-  },
-  "updatedAt": {
-    "$date": "2025-02-18T00:58:08.013Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "67b3f9bf5de1953b969ec15f"
-  },
-  "pet": {
-    "$oid": "67b3f8c85de1953b969ec152"
+    "$oid": "67d219d3ead59f0960f3c21d"
   },
   "date": {
     "$date": "2024-02-20T00:00:00.000Z"
@@ -35,14 +11,14 @@
   "time": "15:00",
   "status": "Pendiente",
   "owner": {
-    "$oid": "67b3f7467f57d53268e44a36"
+    "$oid": "67d20d59d7f88b7f28bd2720"
   },
   "description": "si funciona",
   "createdAt": {
-    "$date": "2025-02-18T03:08:47.323Z"
+    "$date": "2025-03-12T23:34:17.353Z"
   },
   "updatedAt": {
-    "$date": "2025-02-18T03:08:47.323Z"
+    "$date": "2025-03-12T23:34:17.353Z"
   },
   "__v": 0
 }]

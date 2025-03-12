@@ -90,3 +90,39 @@ export const register = async (req, res) => {
 
     }
 }
+
+export const updatePassword = async (req, res) =>{
+    const { email, password, newPassword} = req.body;
+
+    try {
+        const user = await Usuario.findOne({ email });
+
+        if (!user) {
+            return res.status(404).json({
+                msg: 'Usuario not found'
+            });
+        }
+
+        const validPassword = await verify(user.password, password);
+
+        if (!validPassword) {
+            return res.status(400).json({
+                msg: 'Contraseña incorrecta'
+            });
+        }
+
+        const encryptedPassword = await hash(newPassword);
+        user.password = encryptedPassword;
+
+        await user.save();
+
+        return res.status(200).json({
+            msg: 'Contraseña actualizada'
+        });
+    } catch (error) {
+        res.status(500).json({
+            message: 'Error al actualizar contraseña',
+            error
+        })
+    }
+}

@@ -1,20 +1,40 @@
 [{
   "_id": {
-    "$oid": "67b3f7467f57d53268e44a36"
+    "$oid": "67d20d59d7f88b7f28bd2720"
+  },
+  "name": "si funciona ",
+  "surname": "o no",
+  "username": "agua",
+  "email": "diego@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$kyQ99INP4zDFPG/9n/lzkw$h0YsuSbZZsibrgeniBrgw4+eOW7S6GbSFsBIOOYG7jo",
+  "profilePicture": null,
+  "phone": "12347895",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-03-12T22:40:25.962Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T23:36:50.968Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d21a30ead59f0960f3c225"
   },
   "name": "Josue",
-  "surname": "Javier",
-  "username": "yax",
-  "email": "jyax@gmai.com",
-  "password": "$argon2id$v=19$m=65536,t=3,p=4$x5oBJZ9Su1uknAFc+iivNw$Q5/8BIjc40m78nPopajFRfGcxtlW4OqDVuJAKZ/tsmQ",
+  "surname": "Yax",
+  "username": "Javier",
+  "email": "jyax@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$JiE0MlZznlA1vCFRJpkfcw$cL9Rr5QQQcKuZDmpwlv2x6OQb82TEnYCs/QiVbTwA1M",
   "profilePicture": null,
-  "phone": "09897774",
+  "phone": "98765432",
   "role": "ADMIN_ROLE",
   "estado": true,
   "createdAt": {
-    "$date": "2025-02-18T02:58:14.421Z"
+    "$date": "2025-03-12T23:35:12.121Z"
   },
   "updatedAt": {
-    "$date": "2025-02-18T02:58:14.421Z"
+    "$date": "2025-03-12T23:35:39.622Z"
   }
 }]
